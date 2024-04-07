@@ -15,7 +15,7 @@ const Product = (currEle) => {
                 <div className="card " style={{ width: "18rem" }}>
                     <div className="card-anime">
 
-                        <span class="badge rounded-pill text-bg-danger bg-danger position-absolute end-0 mt-2 me-1">{category}</span>
+                        <span className="badge rounded-pill text-bg-danger bg-danger position-absolute end-0 mt-2 me-1">{category}</span>
                         <img src={image} className="card-img-top" alt="productimage" />
                     </div>
 

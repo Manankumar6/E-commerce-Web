@@ -9,10 +9,10 @@ const ListView = ({ products }) => {
         <div className='row my-4' >
             {
                 products.map((currEle, ind) => {
-                    const { id, image, price, category, name, description } = currEle
+                    const { id, image, price, name, description } = currEle
                     return (
 
-                        <div className="row  p-3 border border-1">
+                        <div className="row  p-3 border border-1" key={ind}>
                             <div className="col-md-4 col-12 d-flex align-items-center">
                                 <div className=" card-anime">
 

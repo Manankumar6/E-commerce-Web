@@ -1,6 +1,7 @@
 import React from 'react'
-
+import { useAuth0 } from "@auth0/auth0-react";
 const Contact = () => {
+  const {isAuthenticated,user} = useAuth0();
   return (
     <div>
       <h1 className='text-center'>Contact us</h1>
@@ -8,17 +9,21 @@ const Contact = () => {
       <div className="container d-flex justify-content-center align-items-center ">
         <form className='my-5' action='https://formspree.io/f/mwkgqzor' method='POST'>
           <div className="mb-3">
-            <label for="name" className="form-label">Username</label>
-            <input type="text" required  className="form-control " id="name" aria-describedby="emailHelp" name='name' />
+            <label htmlFor="name" className="form-label">Username</label>
+            <input type="text" required  className="form-control " id="name" aria-describedby="emailHelp" name='name'
+            value={isAuthenticated?user.name:""}
+            />
 
           </div>
           <div className="mb-3">
-            <label for="email" className="form-label">Email</label>
-            <input type="email" required  className="form-control" id="email" name='email' />
+            <label htmlFor="email" className="form-label">Email</label>
+            <input type="email" required  className="form-control" id="email" name='email'
+             value={isAuthenticated?user.email:""}
+            />
           </div>
           <div className="form-floating">
             <textarea name='message' className="form-control" placeholder="Leave a comment here" id="text"></textarea>
-            <label for="text">Comments</label>
+            <label htmlFor="text">Comments</label>
           </div>
           <button type="submit" className="btn btn-primary my-2">Submit</button>
         </form>

@@ -44,7 +44,7 @@ const FilterProducts = () => {
         <div >
           {categoryData.map((currEle, ind) => {
             return (
-              <div className="row category ">
+              <div className="row category " key={ind}>
 
                 <Button className='d-flex justify-content-start ps-md-4 text-dark '  key={ind} name="category" value={currEle} onClick={handleInput} >
                   {currEle}
