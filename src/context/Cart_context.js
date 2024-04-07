@@ -3,7 +3,7 @@ import reducer from '../reducer/Cart_reducer'
 const CartContext = createContext()
 const getLocalCartData = ()=>{
     let localCartData = localStorage.getItem("CartItem")
-    if(localCartData.length === 0){
+    if(localCartData.length === null){
         return []
     }else{
         return JSON.parse(localCartData)
