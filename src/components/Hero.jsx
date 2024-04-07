@@ -1,5 +1,6 @@
 import React from 'react'
 import Button from '@mui/material/Button';
+import { NavLink } from 'react-router-dom';
 const Hero = ({myData}) => {
     const {name} = myData
 
@@ -14,7 +15,10 @@ const Hero = ({myData}) => {
           <p>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos vel maxime ullam beatae, quaerat iusto quisquam ratione ipsa, perferendis dolore accusamus deserunt? Expedita maiores debitis id laborum officia? Pariatur, perspiciatis?
           </p>
+          <NavLink to='/product'>
+
           <Button variant="contained" className='text-light fw-bold' style={{ background: "#c1121f" }}>Shop Now</Button>
+          </NavLink>
         </div>
         <div className=" col-md-6 ">
 

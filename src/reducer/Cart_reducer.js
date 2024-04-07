@@ -137,22 +137,28 @@ const Cart_reducer = (state, action) => {
     //         total_price
     //     }
     // }
-
     if (action.type === "CART_ITEM_PRICE_TOTAL") {
+        // Check if state.cart is null or undefined, and handle it appropriately
+        if (!state.cart) {
+            return state; // Return the current state without making any changes
+        }
+    
+        // Calculate total item and total price
         let { total_item, total_price } = state.cart.reduce((accum, currEle) => {
             let { price, amount } = currEle;
             accum.total_item += amount;
             accum.total_price += price * amount
-            return accum
+            return accum;
         }, {
             total_item: 0,
             total_price: 0
-        })
+        });
+    
         return {
             ...state,
             total_item,
             total_price
-        }
+        };
     }
     return state;
 
