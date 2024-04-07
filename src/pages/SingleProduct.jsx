@@ -14,7 +14,7 @@ const singleProductURL = "https://api.pujakaitem.com/api/products"
 const SingleProduct = () => {
     const { getSingleProduct, isSingleLoading, singleProduct,capitalize } = useProductContext()
     const { id } = useParams();
-    const { id: alias, name, company, price, stars, description,  stock, reviews, image } = singleProduct
+    const {  name, company, price, stars, description,  stock, reviews, image } = singleProduct
 
 
 

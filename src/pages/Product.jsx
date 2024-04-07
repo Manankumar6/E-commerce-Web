@@ -2,10 +2,10 @@ import React from 'react'
 import FilterProducts from '../components/FilterProducts'
 import Sort from '../components/Sort'
 import ProductList from '../components/ProductList'
-import { useFilterContext } from '../context/Filter_context'
+
 
 const Product = () => {
-  const {filter_products} = useFilterContext()
+ 
 
   return (
     <div>
