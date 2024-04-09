@@ -9,7 +9,7 @@ const Cart_reducer = (state, action) => {
         let existingItem = state.cart.find((currEle) =>
             currEle.id === id + color
         )
-        
+
         if (existingItem) {
             let updateProduct = state.cart.map((currItem) => {
                 if (currItem.id === id + color) {

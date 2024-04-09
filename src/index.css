@@ -116,6 +116,12 @@ bottom: 1.2rem;
 .category{
   font-size: 10px !important;
 }
+.letter-spaceing{
+  letter-spacing: 20% !important;
+}
+.carousel-card{
+  overflow-y: hidden;
+}
 
 @media only screen and (max-width: 994px) {
   .clrbtn{

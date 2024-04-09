@@ -11,7 +11,7 @@ const Cart = () => {
   if(cart.length === 0 ){
     return(
       <div className="container text-center my-auto">
-        <h1>No cart in item</h1>
+        <h1>No items in cart</h1>
         <img src="images/emptycart.webp" alt="emptycart"  style={{width:"50%" , height:"50%"}}/>
       </div>
     )

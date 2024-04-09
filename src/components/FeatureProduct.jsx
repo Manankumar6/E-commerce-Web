@@ -16,8 +16,8 @@ const FeatureProduct = () => {
 
       <div className=" pt-2 ms-5">
 
-        <p className='mb-0'>Check Now !</p>
-        <h3>Our Feature Services</h3>
+     
+        <h3>Our Popular Products</h3>
       </div>
       <div className="row">
 

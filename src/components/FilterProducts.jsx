@@ -7,6 +7,7 @@ import PriceFormat from '../helper/PriceFormat';
 
 const FilterProducts = () => {
   const { filters: { text,colors,price,maxPrice,minPrice }, handleInput, all_products ,clearFilter} = useFilterContext()
+ 
   const { capitalize } = useProductContext()
   // To get unique data 
   const getUniqueData = (data, prop) => {

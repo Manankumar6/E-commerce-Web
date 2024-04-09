@@ -23,8 +23,8 @@ const Footer = () => {
                 <div className="container ">
                     <div className="row py-5 ">
                         <div className="col-md-3 py-2">
-                            <h5>My Store</h5>
-                            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vel, dolores.</p>
+                            <h5>E-commerce Store</h5>
+                            <p>E-Shopify is a dynamic and innovative online retail platform that offers a wide range of products to customers worldwide.</p>
                         </div>
                         <div className="col-md-3 py-2">
                             <h5>Subscribe to get important updates</h5>
