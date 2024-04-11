@@ -139,3 +139,9 @@ bottom: 1.2rem;
     font-size: 10px !important;
   }
 }
+@media only screen and (max-width: 554px) {
+  .carousel-img{
+    height: 160px;
+  }
+
+}

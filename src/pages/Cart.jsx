@@ -35,7 +35,7 @@ const Cart = () => {
 
 
       <div className="row text-end text-md-center fw-bold">
-        <div className="col-2"><p>Item</p></div>
+        <div className="col-2"><p>Items</p></div>
         <div className="col-2 d-none d-md-block"><p>Price</p></div>
         <div className="col-7 col-md-4"><p>Quantity</p></div>
         <div className="col-2 d-none d-md-block"><p>Subtotal</p></div>

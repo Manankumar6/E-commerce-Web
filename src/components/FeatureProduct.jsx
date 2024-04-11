@@ -11,7 +11,7 @@ const FeatureProduct = () => {
     </>
   }
   return (
-    <div className='container-fluid py-3 my-2' style={{ background: "#f4f7fc" }}>
+    <div className='container-fluid py-3 mt-2' style={{ background: "#f4f7fc" }}>
 
 
       <div className=" pt-2 ms-5">

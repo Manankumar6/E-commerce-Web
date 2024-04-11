@@ -12,6 +12,9 @@ const initialState = {
         category:"all",
         company:"all",
         colors:"all",
+        name:"",
+        email:"",
+        message:"",
         price:0,
         maxPrice:0,
         minPrice:0

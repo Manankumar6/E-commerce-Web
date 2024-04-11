@@ -9,7 +9,7 @@ const Product = () => {
 
   return (
     <div>
-      <div className="container">
+      <div className="container pb-3">
         <div className="row">
           <div className="col-3  ">
             

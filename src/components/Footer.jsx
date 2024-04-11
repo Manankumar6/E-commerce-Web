@@ -7,14 +7,14 @@ import { Link, NavLink } from "react-router-dom";
 
 const Footer = () => {
     return (
-        <div style={{ background: "#003049", color: "white" }} className='my-2'>
-            <div className="footer_card row  px-5 py-4 mx-auto rounded-3">
+        <div style={{ background: "#003049", color: "white" }} className=''>
+            <div className="footer_card row  text-center py-4 mx-auto rounded-3">
                 <div className='col-md-6'>
                     <h5>Ready to get started ?</h5>
                     <h5>Talk to us today</h5>
                 </div>
                 <div className='my-auto col-md-6 text-md-end'>
-                    <Button variant="contained" className='text-light fw-light  mt-2' style={{ background: "#274c77" , }}>Get Started</Button>
+                    <Button variant="contained" className='text-light fw-light  mt-2' style={{ background: "#274c77" }}>Get Started</Button>
 
                 </div>
             </div>

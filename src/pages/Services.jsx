@@ -7,7 +7,7 @@ const Services = () => {
     return (
         <div>
             <div className="container-fluid my-5  px-md-5">
-                <div className="row px-2 ps-md-5  text-center gap-1 "  >
+                <div className="row  d-flex justify-content-center text-center gap-1 "  >
                     <div className="col-md-3 d-flex flex-column justify-content-center align-items-center " style={{ background: "#f5ebe0" }}>
                         <TbTruckDelivery className='fs-1 bg-white rounded-circle ' />
                         <h5>Super Fast & Free Delivery</h5>

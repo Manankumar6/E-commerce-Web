@@ -24,15 +24,24 @@ const About = () => {
       </div>
       <Services />
       <Trusted />
-      <div className=" text-center my-5">
-      <h1 >For furthermore help, contact with our support team.</h1>
-      <NavLink to='/contact'>
+      <div className="row m-0 py-4">
+        <div className="col fs-3">
 
-        <Button variant="contained" className='text-light fw-bold mt-2' style={{ background: "#274c77" }}>Contact us</Button>
-      </NavLink>
-      <div className='fs-4 mt-3 fw-bold'>
-        <FaPhoneAlt /> <span >+91 6398401607</span>
-      </div>
+          <div className=" text-center my-5">
+            <h1 >For further more help, contact with our support team.</h1>
+            <NavLink to='/contact'>
+
+              <Button variant="contained" className='text-light fw-bold mt-2' style={{ background: "#274c77" }}>Contact us</Button>
+            </NavLink>
+            <div className='fs-5 mt-3 fw-bold'>
+              <FaPhoneAlt /> <span >+91 6398401607</span>
+            </div>
+
+          </div>
+        </div>
+        <div className="col my-auto">
+          <img src="/images/contactus.gif" className='img-fluid ' alt="gif" />
+        </div>
       </div>
     </div>
   )
